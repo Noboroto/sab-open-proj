@@ -23,7 +23,7 @@ Launch the containers:
 
     docker-compose up -d
 
-After a while, OpenProject should be up and running on <http://localhost:8080>.
+After a while, OpenProject should be up and running on <http://localhost:8280>.
 
 **HTTPS/SSL**
 
@@ -72,7 +72,7 @@ PORT=4000
 If you don't want OpenProject to bind to `0.0.0.0` you can bind it to localhost only like this:
 
 ```
-PORT=127.0.0.1:8080
+PORT=127.0.0.1:8280
 ```
 
 ## TAG
